@@ -58,6 +58,10 @@ Conteúdo detalhado em Markdown...
 
 Edite `src/data/recursos.ts` — cada categoria tem um array de links com `nome`, `url`, `descricao` e opcionalmente `regiao`.
 
+## Painel admin (colaboradores)
+
+Edição via **[`/admin`](docs/ADMIN.md)** — Decap CMS com login GitHub. Guia completo: [docs/ADMIN.md](docs/ADMIN.md).
+
 ## Build
 
 ```bash
@@ -84,7 +88,8 @@ npx vercel
 src/
 ├── content/newsletter/   # Posts (.md)
 ├── content/timeline/     # Eventos da linha do tempo (.md)
-├── data/recursos.ts      # Links da página Recursos
+├── data/recursos.json    # Links (editável no /admin)
+├── data/recursos.ts      # Tipos + import do JSON
 ├── components/           # Header, Footer, cards, timeline
 ├── layouts/              # BaseLayout
 └── pages/                # /, /newsletter/[slug], /timeline/[slug], /recursos

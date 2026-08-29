@@ -1,0 +1,88 @@
+# Decap CMS — edita conteúdo via interface e grava no GitHub.
+# Produção: login com GitHub (colaboradores precisam de acesso ao repo).
+# Local: rode `npm run cms` em outro terminal + `npm run dev`.
+
+local_backend: true
+
+backend:
+  name: github
+  repo: htbarbieri/eb2-newsletter
+  branch: main
+  base_url: https://eb2emfoco.com.br
+  auth_endpoint: api/auth
+
+media_folder: public/uploads
+public_folder: /uploads
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: '-'
+
+collections:
+  - name: newsletter
+    label: Newsletter
+    label_singular: Post
+    folder: src/content/newsletter
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Título, name: title, widget: string }
+      - { label: Data, name: date, widget: datetime, date_format: 'YYYY-MM-DD', time_format: false }
+      - { label: Resumo, name: excerpt, widget: text }
+      - { label: Tags, name: tags, widget: list, default: [] }
+      - { label: Conteúdo, name: body, widget: markdown }
+
+  - name: timeline
+    label: Linha do tempo
+    label_singular: Evento
+    folder: src/content/timeline
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Título, name: title, widget: string }
+      - { label: Data (exibição), name: dateLabel, widget: string, hint: 'Ex.: 31 Ago 2026 ou Mar – Jul 2026' }
+      - { label: Data (ordenação), name: sortDate, widget: datetime, date_format: 'YYYY-MM-DD', time_format: false }
+      - { label: Resumo, name: excerpt, widget: text }
+      - label: Foco
+        name: side
+        widget: select
+        options:
+          - { label: 'Consulados & requerentes', value: br }
+          - { label: 'Tribunal & governo EUA', value: us }
+      - { label: Tags, name: tags, widget: list, default: [] }
+      - { label: Conteúdo, name: body, widget: markdown }
+
+  - name: recursos
+    label: Imigrei - Primeiros Passos
+    files:
+      - label: Links e categorias
+        name: recursos
+        file: src/data/recursos.json
+        fields:
+          - label: Categorias
+            name: categories
+            widget: list
+            summary: '{{fields.titulo}}'
+            fields:
+              - { label: ID (âncora URL), name: id, widget: string }
+              - { label: Título, name: titulo, widget: string }
+              - { label: Descrição, name: descricao, widget: text }
+              - label: Cor do card
+                name: accent
+                widget: select
+                options: [green, navy, gold, red]
+              - label: Links
+                name: links
+                widget: list
+                summary: '{{fields.nome}}'
+                fields:
+                  - { label: Nome, name: nome, widget: string }
+                  - { label: URL, name: url, widget: string, required: false }
+                  - { label: Descrição, name: descricao, widget: text }
+                  - { label: Região, name: regiao, widget: string, required: false }
+                  - { label: Em breve, name: emBreve, widget: boolean, default: false, required: false }
