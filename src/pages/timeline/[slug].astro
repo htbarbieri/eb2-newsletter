@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
-import { timelineSideLabels } from '../../data/timeline-labels'
+import { timelineSideLabels, timelineSideLabelsShort } from '../../data/timeline-labels'
 
 export async function getStaticPaths() {
   const events = await getCollection('timeline')
@@ -22,19 +22,20 @@ const sideClass =
 ---
 
 <BaseLayout title={event.data.title} description={event.data.excerpt}>
-  <article class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+  <article class="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12">
     <a
       href="/#timeline"
-      class="inline-flex items-center gap-1 font-ui text-sm text-charcoal/60 hover:text-br-green transition-colors"
+      class="inline-flex min-h-[44px] items-center gap-1 font-ui text-sm text-charcoal/60 active:text-br-green sm:min-h-0"
     >
       ← Voltar para linha do tempo
     </a>
 
-    <header class="mt-6 border-b border-us-navy/10 pb-8">
+    <header class="mt-4 border-b border-us-navy/10 pb-6 sm:mt-6 sm:pb-8">
       <div class="flex flex-wrap items-center gap-2">
         <time class="font-ui text-sm font-semibold text-br-gold">{event.data.dateLabel}</time>
         <span class:list={['rounded-full px-2.5 py-0.5 font-ui text-xs font-semibold uppercase tracking-wide', sideClass]}>
-          {sideLabel}
+          <span class="sm:hidden">{timelineSideLabelsShort[event.data.side]}</span>
+          <span class="hidden sm:inline">{sideLabel}</span>
         </span>
         {
           event.data.tags.map((tag) => (
@@ -44,13 +45,13 @@ const sideClass =
           ))
         }
       </div>
-      <h1 class="mt-4 font-display text-3xl font-bold leading-tight text-us-navy sm:text-4xl">
+      <h1 class="mt-3 font-display text-2xl font-bold leading-tight text-us-navy sm:mt-4 sm:text-3xl md:text-4xl">
         {event.data.title}
       </h1>
-      <p class="mt-3 text-lg text-charcoal/70">{event.data.excerpt}</p>
+      <p class="mt-3 text-base leading-relaxed text-charcoal/70 sm:text-lg">{event.data.excerpt}</p>
     </header>
 
-    <div class="prose mt-10 max-w-none">
+    <div class="prose mt-8 max-w-none sm:mt-10">
       <Content />
     </div>
   </article>

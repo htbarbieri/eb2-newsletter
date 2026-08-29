@@ -9,22 +9,25 @@ import { resourceCategories } from '../data/recursos'
   description="Links úteis para imóveis, saúde, veículos, banco, documentação e mais — Brasil → EUA."
 >
   <section class="border-b border-us-navy/10 bg-gradient-to-br from-us-navy/5 to-br-green/5">
-    <div class="mx-auto max-w-5xl px-4 py-14 sm:px-6">
+    <div class="mx-auto max-w-5xl px-4 py-10 sm:px-6 sm:py-14">
       <p class="font-ui text-xs font-semibold uppercase tracking-widest text-br-green">Guia prático</p>
-      <h1 class="mt-2 font-display text-3xl font-bold text-us-navy sm:text-4xl">
+      <h1 class="mt-2 font-display text-[1.625rem] font-bold leading-tight text-us-navy sm:text-3xl md:text-4xl">
         Dicas e Utilidades para quem vai imigrar
       </h1>
-      <p class="mt-3 max-w-2xl text-lg leading-relaxed text-charcoal/75">
+      <p class="mt-3 max-w-2xl text-base leading-relaxed text-charcoal/75 sm:text-lg">
         Links curados para facilitar a preparação da vida nos EUA — imóveis, saúde, carro,
         banco, documentação e mais.
       </p>
 
-      <nav class="mt-8 flex flex-wrap gap-2" aria-label="Categorias">
+      <nav
+        class="category-scroll mt-6 flex gap-2 overflow-x-auto pb-2 sm:mt-8 sm:flex-wrap sm:overflow-visible"
+        aria-label="Categorias"
+      >
         {
           resourceCategories.map((cat) => (
             <a
               href={`#${cat.id}`}
-              class="rounded-full border border-us-navy/15 bg-white px-3 py-1.5 font-ui text-sm text-us-navy transition-colors hover:border-br-green hover:text-br-green"
+              class="shrink-0 snap-start rounded-full border border-us-navy/15 bg-white px-3.5 py-2 font-ui text-sm text-us-navy transition-colors active:border-br-green active:text-br-green sm:px-3 sm:py-1.5"
             >
               {cat.titulo}
             </a>
@@ -34,7 +37,7 @@ import { resourceCategories } from '../data/recursos'
     </div>
   </section>
 
-  <div class="mx-auto max-w-5xl space-y-14 px-4 py-12 sm:px-6">
+  <div class="mx-auto max-w-5xl space-y-10 px-4 py-8 sm:space-y-14 sm:px-6 sm:py-12">
     {
       resourceCategories.map((category) => (
         <ResourceCategory category={category} />

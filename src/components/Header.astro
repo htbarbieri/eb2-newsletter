@@ -2,8 +2,8 @@
 const pathname = Astro.url.pathname
 
 const navItems = [
-  { href: '/', label: 'Newsletter' },
-  { href: '/recursos', label: 'Imigrei - Primeiros Passos' },
+  { href: '/', label: 'Newsletter', mobileLabel: 'Newsletter' },
+  { href: '/recursos', label: 'Imigrei - Primeiros Passos', mobileLabel: 'Primeiros Passos' },
 ]
 
 function isActive(href: string) {
@@ -12,19 +12,19 @@ function isActive(href: string) {
 }
 ---
 
-<header class="sticky top-0 z-50 border-b border-us-navy/10 bg-cream/90 backdrop-blur-md">
-  <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6">
-    <a href="/" class="group flex items-center gap-3">
-      <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-br-green to-us-navy shadow-sm">
+<header class="sticky top-0 z-50 border-b border-us-navy/10 bg-cream/95 backdrop-blur-md supports-[padding:max(0px)]:pt-[env(safe-area-inset-top)]">
+  <div class="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4">
+    <a href="/" class="group flex min-w-0 flex-1 items-center gap-2.5 sm:gap-3">
+      <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-br-green to-us-navy shadow-sm">
         <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" aria-hidden="true">
           <path d="M4 12h16M12 4l8 8-8 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
-      <div>
-        <span class="font-display text-lg font-semibold text-us-navy group-hover:text-br-green transition-colors">
+      <div class="min-w-0">
+        <span class="block truncate font-display text-base font-semibold text-us-navy sm:text-lg group-hover:text-br-green transition-colors">
           EB2 em Foco
         </span>
-        <span class="mt-0.5 flex items-center gap-1.5 font-ui text-xs text-charcoal/60">
+        <span class="mt-0.5 hidden items-center gap-1.5 font-ui text-xs text-charcoal/60 sm:flex">
           <span class="inline-block h-2 w-3 rounded-sm bg-br-green"></span>
           <span>→</span>
           <span class="inline-flex gap-0.5">
@@ -36,13 +36,14 @@ function isActive(href: string) {
       </div>
     </a>
 
-    <nav class="flex items-center gap-1">
+    <!-- Desktop nav -->
+    <nav class="hidden items-center gap-1 md:flex" aria-label="Principal">
       {
         navItems.map((item) => (
           <a
             href={item.href}
             class:list={[
-              'rounded-full px-4 py-2 font-ui text-sm font-medium transition-colors',
+              'rounded-full px-4 py-2.5 font-ui text-sm font-medium transition-colors',
               isActive(item.href)
                 ? 'bg-us-navy text-white'
                 : 'text-charcoal/70 hover:bg-surface hover:text-us-navy',
@@ -53,5 +54,81 @@ function isActive(href: string) {
         ))
       }
     </nav>
+
+    <!-- Mobile menu button -->
+    <button
+      type="button"
+      id="mobile-menu-btn"
+      class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-us-navy/10 bg-white text-us-navy shadow-sm transition-colors hover:bg-surface md:hidden"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      aria-label="Abrir menu"
+    >
+      <svg id="icon-open" class="h-5 w-5" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M4 7h16M4 12h16M4 17h16"/>
+      </svg>
+      <svg id="icon-close" class="hidden h-5 w-5" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M6 6l12 12M18 6L6 18"/>
+      </svg>
+    </button>
   </div>
+
+  <!-- Mobile nav panel -->
+  <nav
+    id="mobile-menu"
+    class="hidden border-t border-us-navy/10 bg-cream px-4 py-3 md:hidden supports-[padding:max(0px)]:pb-[max(0.75rem,env(safe-area-inset-bottom))]"
+    aria-label="Principal mobile"
+  >
+    <ul class="flex flex-col gap-1">
+      {
+        navItems.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              data-mobile-nav
+              class:list={[
+                'flex min-h-[48px] items-center rounded-xl px-4 font-ui text-base font-medium transition-colors',
+                isActive(item.href)
+                  ? 'bg-us-navy text-white'
+                  : 'text-charcoal/80 hover:bg-surface active:bg-surface',
+              ]}
+            >
+              {item.mobileLabel}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
 </header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn')
+  const menu = document.getElementById('mobile-menu')
+  const iconOpen = document.getElementById('icon-open')
+  const iconClose = document.getElementById('icon-close')
+  const links = menu?.querySelectorAll('[data-mobile-nav]')
+
+  function setOpen(open: boolean) {
+    if (!btn || !menu || !iconOpen || !iconClose) return
+    btn.setAttribute('aria-expanded', String(open))
+    btn.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu')
+    menu.classList.toggle('hidden', !open)
+    iconOpen.classList.toggle('hidden', open)
+    iconClose.classList.toggle('hidden', !open)
+    document.body.classList.toggle('overflow-hidden', open)
+  }
+
+  btn?.addEventListener('click', () => {
+    const open = btn.getAttribute('aria-expanded') !== 'true'
+    setOpen(open)
+  })
+
+  links?.forEach((link) => {
+    link.addEventListener('click', () => setOpen(false))
+  })
+
+  window.matchMedia('(min-width: 768px)').addEventListener('change', (e) => {
+    if (e.matches) setOpen(false)
+  })
+</script>
