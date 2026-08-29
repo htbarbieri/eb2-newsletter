@@ -92,7 +92,7 @@ src/
 ├── data/recursos.ts      # Tipos + import do JSON
 ├── components/           # Header, Footer, cards, timeline
 ├── layouts/              # BaseLayout
-└── pages/                # /, /newsletter/[slug], /timeline/[slug], /recursos
+└── pages/                # /, /newsletter/[slug], /timeline/[slug], /dicas
 ```
 
 ## Aviso legal

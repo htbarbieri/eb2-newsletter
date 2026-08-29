@@ -1,4 +1,16 @@
 {
+  "redirects": [
+    {
+      "source": "/recursos",
+      "destination": "/dicas",
+      "permanent": true
+    },
+    {
+      "source": "/recursos/",
+      "destination": "/dicas",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/admin/(.*)",
