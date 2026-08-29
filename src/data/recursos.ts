@@ -6,6 +6,7 @@ export interface ResourceLink {
   descricao: string
   regiao?: string
   emBreve?: boolean
+  whatsapp?: string
 }
 
 export interface ResourceCategory {
