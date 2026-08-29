@@ -69,10 +69,14 @@
           "descricao": "Análise de preço justo e avaliações de revendedores."
         },
         {
-          "nome": "G7 Motor Sales (Orlando)",
-          "url": "https://www.instagram.com/g7motorsales/",
-          "whatsapp": "14079211710",
-          "descricao": "Revenda de veículos em Orlando — @g7motorsales",
+          "nome": "Truck Experts (Edi)",
+          "whatsapp": "14074273028",
+          "instagrams": [
+            { "handle": "edicars99", "label": "Edi" },
+            { "handle": "truckexpertsfl", "label": "Loja" }
+          ],
+          "youtube": "edicars99",
+          "descricao": "Revenda de veículos em Orlando — @edicars99 · @truckexpertsfl",
           "regiao": "Orlando, FL"
         },
         {

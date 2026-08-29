@@ -85,5 +85,14 @@ collections:
                   - { label: URL, name: url, widget: string, required: false }
                   - { label: Descrição, name: descricao, widget: text }
                   - { label: Região, name: regiao, widget: string, required: false }
-                  - { label: WhatsApp (só números, ex. 14079211710), name: whatsapp, widget: string, required: false }
+                  - { label: WhatsApp (só números, ex. 14074273028), name: whatsapp, widget: string, required: false }
+                  - label: Instagrams
+                    name: instagrams
+                    widget: list
+                    required: false
+                    summary: '@{{fields.handle}}'
+                    fields:
+                      - { label: Handle (sem @), name: handle, widget: string }
+                      - { label: Rótulo (ex. Edi, Loja), name: label, widget: string, required: false }
+                  - { label: YouTube (handle sem @, ex. edicars99), name: youtube, widget: string, required: false }
                   - { label: Em breve, name: emBreve, widget: boolean, default: false, required: false }
