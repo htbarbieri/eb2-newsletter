@@ -59,6 +59,11 @@
       "accent": "navy",
       "links": [
         {
+          "nome": "Cars.com",
+          "url": "https://www.cars.com",
+          "descricao": "Grande portal de compra e venda — um dos mais populares nos EUA, no estilo Webmotors."
+        },
+        {
           "nome": "CarGurus",
           "url": "https://www.cargurus.com",
           "descricao": "Análise de preço justo e avaliações de revendedores."
