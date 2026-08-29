@@ -1,0 +1,66 @@
+---
+import { getCollection } from 'astro:content'
+import { timelineSideLabels } from '../data/timeline-labels'
+
+const events = (await getCollection('timeline')).sort(
+  (a, b) => b.data.sortDate.getTime() - a.data.sortDate.getTime(),
+)
+---
+
+<section id="timeline" class="scroll-mt-24 rounded-2xl border border-us-navy/10 bg-white p-6 sm:p-8 shadow-sm">
+  <div class="mb-8">
+    <p class="font-ui text-xs font-semibold uppercase tracking-widest text-br-green">Linha do tempo</p>
+    <h2 class="mt-1 font-display text-2xl font-semibold text-us-navy">Marcos do caso CLINIC v. Rubio</h2>
+    <p class="mt-2 text-sm text-charcoal/70">
+      De janeiro a agosto de 2026 — badges indicam o foco de cada marco (consulados/requerentes ou tribunal/governo EUA), não o local físico do evento.
+    </p>
+  </div>
+
+  <ol class="relative space-y-0">
+    {
+      events.map((event, index) => (
+        <li class="relative flex gap-4 pb-8 last:pb-0">
+          {index < events.length - 1 && (
+            <span
+              class="absolute left-[11px] top-6 h-[calc(100%-12px)] w-0.5 bg-gradient-to-b from-br-gold to-us-navy/20"
+              aria-hidden="true"
+            />
+          )}
+
+          <span
+            class:list={[
+              'relative z-10 mt-1 h-6 w-6 shrink-0 rounded-full border-2 border-white shadow-sm',
+              event.data.side === 'br' ? 'bg-br-green' : 'bg-us-navy',
+            ]}
+            aria-hidden="true"
+          />
+
+          <div class="min-w-0 flex-1">
+            <div class="flex flex-wrap items-center gap-2">
+              <time class="font-ui text-xs font-semibold text-br-gold">{event.data.dateLabel}</time>
+              <span
+                class:list={[
+                  'rounded-full px-2 py-0.5 font-ui text-[10px] font-semibold uppercase tracking-wide',
+                  event.data.side === 'br'
+                    ? 'bg-br-green/10 text-br-green'
+                    : 'bg-us-navy/10 text-us-navy',
+                ]}
+              >
+                {timelineSideLabels[event.data.side]}
+              </span>
+            </div>
+            <h3 class="mt-1 font-display text-base font-semibold text-charcoal">{event.data.title}</h3>
+            <p class="mt-1 text-sm leading-relaxed text-charcoal/70">{event.data.excerpt}</p>
+            <a
+              href={`/timeline/${event.id}`}
+              class="mt-3 inline-flex items-center gap-1 font-ui text-sm font-medium text-br-green hover:text-us-navy transition-colors"
+            >
+              Ler detalhes
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+</section>

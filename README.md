@@ -1,43 +1,95 @@
-# Astro Starter Kit: Minimal
+# EB2 em Foco
 
-```sh
-npm create astro@latest -- --template minimal
+Site estático com newsletter sobre o caso **CLINIC v. Rubio** (pausa de vistos EB2 para 75 países) e uma página de **recursos práticos** para imigrantes Brasil → EUA.
+
+## Stack
+
+- [Astro 5](https://astro.build)
+- [Tailwind CSS 4](https://tailwindcss.com)
+- Conteúdo em Markdown (Content Collections)
+
+## Desenvolvimento local
+
+```bash
+cd ~/Dev/eb2-newsletter
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Abra [http://localhost:4321](http://localhost:4321).
 
-## 🚀 Project Structure
+## Publicar um novo post
 
-Inside of your Astro project, you'll see the following folders and files:
+1. Crie um arquivo `.md` em `src/content/newsletter/`:
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```markdown
+---
+title: "Título do post"
+date: 2026-09-01
+excerpt: "Resumo curto para a listagem."
+tags: ["tag1", "tag2"]
+---
+
+Conteúdo em Markdown...
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+2. O site lista automaticamente na homepage (ordenado por data).
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Adicionar evento na linha do tempo
 
-Any static assets, like images, can be placed in the `public/` directory.
+1. Crie um arquivo `.md` em `src/content/timeline/`:
 
-## 🧞 Commands
+```markdown
+---
+title: "Título do evento"
+dateLabel: "1 Set 2026"
+sortDate: 2026-09-01
+excerpt: "Resumo curto na timeline."
+side: br   # ou us
+tags: ["tag"]
+---
 
-All commands are run from the root of the project, from a terminal:
+Conteúdo detalhado em Markdown...
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+2. Aparece automaticamente na timeline da homepage, com link **Ler detalhes →**.
 
-## 👀 Want to learn more?
+## Adicionar links em Recursos
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Edite `src/data/recursos.ts` — cada categoria tem um array de links com `nome`, `url`, `descricao` e opcionalmente `regiao`.
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deploy na Vercel
+
+1. Crie um repositório Git e faça push do projeto.
+2. Importe em [vercel.com/new](https://vercel.com/new).
+3. Framework preset: **Astro** (detectado automaticamente).
+4. Cada push em `main` atualiza o site.
+
+Alternativa via CLI:
+
+```bash
+npx vercel
+```
+
+## Estrutura
+
+```
+src/
+├── content/newsletter/   # Posts (.md)
+├── content/timeline/     # Eventos da linha do tempo (.md)
+├── data/recursos.ts      # Links da página Recursos
+├── components/           # Header, Footer, cards, timeline
+├── layouts/              # BaseLayout
+└── pages/                # /, /newsletter/[slug], /timeline/[slug], /recursos
+```
+
+## Aviso legal
+
+Conteúdo informativo. Não substitui aconselhamento jurídico, consular ou financeiro profissional.

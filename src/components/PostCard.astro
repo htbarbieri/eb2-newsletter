@@ -1,0 +1,49 @@
+---
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  post: CollectionEntry<'newsletter'>
+}
+
+const { post } = Astro.props
+
+const formattedDate = post.data.date.toLocaleDateString('pt-BR', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+})
+---
+
+<article class="group overflow-hidden rounded-2xl border border-us-navy/10 bg-white shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
+  <div class="h-1 bg-gradient-to-r from-br-green via-br-gold to-us-navy"></div>
+  <div class="p-6">
+    <div class="flex flex-wrap items-center gap-2">
+      <time datetime={post.data.date.toISOString()} class="font-ui text-xs font-semibold uppercase tracking-wide text-br-gold">
+        {formattedDate}
+      </time>
+      {
+        post.data.tags.slice(0, 3).map((tag) => (
+          <span class="rounded-full bg-surface px-2.5 py-0.5 font-ui text-xs text-us-navy">
+            {tag}
+          </span>
+        ))
+      }
+    </div>
+
+    <h2 class="mt-3 font-display text-xl font-semibold text-us-navy group-hover:text-br-green transition-colors">
+      <a href={`/newsletter/${post.id}`}>{post.data.title}</a>
+    </h2>
+
+    <p class="mt-2 line-clamp-3 text-sm leading-relaxed text-charcoal/70">
+      {post.data.excerpt}
+    </p>
+
+    <a
+      href={`/newsletter/${post.id}`}
+      class="mt-4 inline-flex items-center gap-1 font-ui text-sm font-medium text-br-green hover:text-us-navy transition-colors"
+    >
+      Ler artigo
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</article>

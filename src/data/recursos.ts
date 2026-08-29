@@ -1,0 +1,192 @@
+export type ResourceAccent = 'green' | 'navy' | 'gold' | 'red'
+
+export interface ResourceLink {
+  nome: string
+  url?: string
+  descricao: string
+  regiao?: string
+  emBreve?: boolean
+}
+
+export interface ResourceCategory {
+  id: string
+  titulo: string
+  descricao: string
+  accent: ResourceAccent
+  links: ResourceLink[]
+}
+
+export const resourceCategories: ResourceCategory[] = [
+  {
+    id: 'imoveis',
+    titulo: 'Imóveis',
+    descricao: 'Busca de casas e apartamentos por região nos EUA.',
+    accent: 'green',
+    links: [
+      {
+        nome: 'Zillow',
+        url: 'https://www.zillow.com',
+        descricao: 'Maior portal de imóveis residenciais nos EUA.',
+      },
+      {
+        nome: 'Apartments.com',
+        url: 'https://www.apartments.com',
+        descricao: 'Foco em apartamentos para aluguel.',
+      },
+      {
+        nome: 'Realtor.com',
+        url: 'https://www.realtor.com',
+        descricao: 'Listagens oficiais da National Association of Realtors.',
+      },
+      {
+        nome: 'Redfin',
+        url: 'https://www.redfin.com',
+        descricao: 'Preços estimados e tour virtual de imóveis.',
+        regiao: 'Popular em FL, TX, CA, WA',
+      },
+    ],
+  },
+  {
+    id: 'saude',
+    titulo: 'Planos de saúde',
+    descricao: 'Marketplace e comparadores de seguro médico.',
+    accent: 'gold',
+    links: [
+      {
+        nome: 'Healthcare.gov',
+        url: 'https://www.healthcare.gov',
+        descricao: 'Marketplace oficial do Affordable Care Act (ACA).',
+      },
+      {
+        nome: 'eHealth',
+        url: 'https://www.ehealthinsurance.com',
+        descricao: 'Comparador de planos individuais e familiares.',
+      },
+      {
+        nome: 'Kaiser Family Foundation',
+        url: 'https://www.kff.org',
+        descricao: 'Guia imparcial sobre cobertura e custos nos EUA.',
+      },
+    ],
+  },
+  {
+    id: 'veiculos',
+    titulo: 'Veículos',
+    descricao: 'Pesquisa de carros novos, usados e valores de mercado.',
+    accent: 'navy',
+    links: [
+      {
+        nome: 'CarGurus',
+        url: 'https://www.cargurus.com',
+        descricao: 'Análise de preço justo e avaliações de revendedores.',
+      },
+      {
+        nome: 'Autotrader',
+        url: 'https://www.autotrader.com',
+        descricao: 'Busca ampla de veículos novos e seminovos.',
+      },
+      {
+        nome: 'Kelley Blue Book',
+        url: 'https://www.kbb.com',
+        descricao: 'Referência de valor de mercado (trade-in e venda).',
+      },
+    ],
+  },
+  {
+    id: 'banco',
+    titulo: 'Conta bancária',
+    descricao: 'Bancos tradicionais e opções para newcomers nos EUA.',
+    accent: 'navy',
+    links: [
+      {
+        nome: 'Chase',
+        url: 'https://www.chase.com',
+        descricao: 'Conta corrente com ampla rede de agências.',
+      },
+      {
+        nome: 'Bank of America',
+        url: 'https://www.bankofamerica.com',
+        descricao: 'Opção comum para newcomers; verifique requisitos de SSN/ITIN.',
+      },
+      {
+        nome: 'BB Americas',
+        url: 'https://www.bbamericas.com',
+        descricao: 'Banco do Brasil nos EUA — conta em dólar com vínculo ao BB no Brasil.',
+      },
+      {
+        nome: 'Nubank',
+        descricao: 'Conta nos EUA pela fintech brasileira — lançamento em breve.',
+        emBreve: true,
+      },
+    ],
+  },
+  {
+    id: 'documentacao',
+    titulo: 'Documentação e USCIS',
+    descricao: 'Portais oficiais de imigração e status consular.',
+    accent: 'red',
+    links: [
+      {
+        nome: 'USCIS',
+        url: 'https://www.uscis.gov',
+        descricao: 'Petições, formulários e status de casos nos EUA.',
+      },
+      {
+        nome: 'Travel.State.gov',
+        url: 'https://travel.state.gov',
+        descricao: 'Portal oficial do Departamento de Estado — vistos e FAQs.',
+      },
+      {
+        nome: 'CEAC — Visa Status',
+        url: 'https://ceac.state.gov/CEACStatTracker/Status.aspx',
+        descricao: 'Acompanhamento de pedido de visto consular.',
+      },
+      {
+        nome: 'Visa Bulletin',
+        url: 'https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html',
+        descricao: 'Datas de prioridade EB por categoria e país.',
+      },
+    ],
+  },
+  {
+    id: 'escolas',
+    titulo: 'Escolas',
+    descricao: 'Pesquisa de escolas públicas e privadas por endereço.',
+    accent: 'green',
+    links: [
+      {
+        nome: 'GreatSchools',
+        url: 'https://www.greatschools.org',
+        descricao: 'Notas e reviews de escolas por CEP/endereço.',
+      },
+      {
+        nome: 'Niche',
+        url: 'https://www.niche.com',
+        descricao: 'Rankings de bairros, escolas e qualidade de vida.',
+      },
+    ],
+  },
+  {
+    id: 'credito',
+    titulo: 'Crédito e SSN',
+    descricao: 'Número de Seguro Social e construção de histórico de crédito.',
+    accent: 'gold',
+    links: [
+      {
+        nome: 'Social Security Administration',
+        url: 'https://www.ssa.gov',
+        descricao: 'Solicitação de SSN e cartão de Seguro Social.',
+      },
+      {
+        nome: 'Credit Karma',
+        url: 'https://www.creditkarma.com',
+        descricao: 'Monitoramento gratuito de score e relatório de crédito.',
+      },
+      {
+        nome: 'Annual Credit Report',
+        url: 'https://www.annualcreditreport.com',
+        descricao: 'Relatório oficial gratuito (1x/ano por bureau).',
+      },
+    ],
+  },
+]

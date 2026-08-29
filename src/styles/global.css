@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --color-br-green: #007a33;
+  --color-br-green-light: #009739;
+  --color-br-gold: #f4c430;
+  --color-us-navy: #1b365d;
+  --color-us-red: #b22234;
+  --color-cream: #fafaf8;
+  --color-charcoal: #1a1a2e;
+  --color-surface: #f0f4f8;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Source Sans 3", system-ui, sans-serif;
+  --font-ui: "DM Sans", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+}
+
+.prose h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-us-navy);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-br-green);
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+}
+
+.prose ul,
+.prose ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+  line-height: 1.65;
+}
+
+.prose ul li {
+  list-style-type: disc;
+}
+
+.prose ol li {
+  list-style-type: decimal;
+}
+
+.prose blockquote {
+  border-left: 3px solid var(--color-us-red);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-style: italic;
+  color: var(--color-us-navy);
+  box-shadow: 0 1px 3px rgb(27 54 93 / 0.08);
+}
+
+.prose strong {
+  font-weight: 600;
+  color: var(--color-charcoal);
+}
+
+.prose hr {
+  border: none;
+  border-top: 1px solid rgb(27 54 93 / 0.12);
+  margin: 2rem 0;
+}
+
+.prose em {
+  font-style: italic;
+}

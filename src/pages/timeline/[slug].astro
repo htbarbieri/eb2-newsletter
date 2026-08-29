@@ -1,0 +1,57 @@
+---
+import { getCollection, render } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { timelineSideLabels } from '../../data/timeline-labels'
+
+export async function getStaticPaths() {
+  const events = await getCollection('timeline')
+  return events.map((event) => ({
+    params: { slug: event.id },
+    props: { event },
+  }))
+}
+
+const { event } = Astro.props
+const { Content } = await render(event)
+
+const sideLabel = timelineSideLabels[event.data.side]
+const sideClass =
+  event.data.side === 'br'
+    ? 'bg-br-green/10 text-br-green'
+    : 'bg-us-navy/10 text-us-navy'
+---
+
+<BaseLayout title={event.data.title} description={event.data.excerpt}>
+  <article class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+    <a
+      href="/#timeline"
+      class="inline-flex items-center gap-1 font-ui text-sm text-charcoal/60 hover:text-br-green transition-colors"
+    >
+      ← Voltar para linha do tempo
+    </a>
+
+    <header class="mt-6 border-b border-us-navy/10 pb-8">
+      <div class="flex flex-wrap items-center gap-2">
+        <time class="font-ui text-sm font-semibold text-br-gold">{event.data.dateLabel}</time>
+        <span class:list={['rounded-full px-2.5 py-0.5 font-ui text-xs font-semibold uppercase tracking-wide', sideClass]}>
+          {sideLabel}
+        </span>
+        {
+          event.data.tags.map((tag) => (
+            <span class="rounded-full bg-surface px-2.5 py-0.5 font-ui text-xs text-us-navy">
+              {tag}
+            </span>
+          ))
+        }
+      </div>
+      <h1 class="mt-4 font-display text-3xl font-bold leading-tight text-us-navy sm:text-4xl">
+        {event.data.title}
+      </h1>
+      <p class="mt-3 text-lg text-charcoal/70">{event.data.excerpt}</p>
+    </header>
+
+    <div class="prose mt-10 max-w-none">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>
