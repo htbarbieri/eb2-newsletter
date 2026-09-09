@@ -2,7 +2,7 @@
 title: "Audiência de status — 31 de agosto"
 dateLabel: "31 Ago 2026"
 sortDate: 2026-08-31
-excerpt: "Status conference às 14h30 ET via Teams; debate sobre cumprimento da sentença, cancelamentos consulares, Regra 62(a) e prazo do ano fiscal. Aguardando ordem pós-audiência."
+excerpt: "Status conference às 14h30 ET via Teams; tribunal ordena relatório de status do governo — entregue em 08/09 (Doc 96)."
 side: us
 tags: ["audiência", "status conference", "Doc 87", "Doc 89"]
 ---
@@ -67,9 +67,9 @@ Com base no *Doc 90*, o DOJ/DOS manteve que:
 
 ## Resultado
 
-**Nenhuma nova ordem judicial** constava nos autos públicos (*1:26-cv-00858-JAV*) imediatamente após a conferência. A Juíza Vargas pode proferir decisão por escrito nos próximos dias — possivelmente sobre enforcement, relatórios de status ou calendário de compliance.
+A Juíza Vargas **ordenou que o governo apresentasse relatório de status** sobre a implementação do *remand* dos casos negados pela pausa.
 
-*(Esta página será atualizada quando *Doc 92+* ou atas forem publicadas no docket.)*
+Em cumprimento, o DOJ protocolou em **8 de setembro** o *Status Report* (*Doc 96*) com nova declaração de John Armstrong (*Doc 96-1*): **43.000+ casos** sujeitos à anulação, reagendamentos globais estendidos **até setembro** e **sem prazo final** para concluir as reavaliações. Detalhes no [evento de 08/09](/timeline/2026-09-08-relatorio-status-governo) e na [newsletter](/newsletter/2026-09-08-relatorio-status-doc96).
 
 ## O que requerentes brasileiros devem monitorar
 
