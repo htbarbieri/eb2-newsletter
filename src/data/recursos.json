@@ -93,6 +93,11 @@
       "accent": "navy",
       "links": [
         {
+          "nome": "Nubank",
+          "url": "https://nu.com",
+          "descricao": "Conta nos EUA pela fintech brasileira — lançamento oficial em setembro de 2026."
+        },
+        {
           "nome": "Chase",
           "url": "https://www.chase.com",
           "descricao": "Conta corrente com ampla rede de agências."
@@ -106,11 +111,6 @@
           "nome": "BB Americas",
           "url": "https://www.bbamericas.com",
           "descricao": "Banco do Brasil nos EUA — conta em dólar com vínculo ao BB no Brasil."
-        },
-        {
-          "nome": "Nubank",
-          "descricao": "Conta nos EUA pela fintech brasileira — lançamento em breve.",
-          "emBreve": true
         }
       ]
     },
