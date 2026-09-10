@@ -95,4 +95,5 @@ collections:
                       - { label: Handle (sem @), name: handle, widget: string }
                       - { label: Rótulo (ex. Edi, Loja), name: label, widget: string, required: false }
                   - { label: YouTube (handle sem @, ex. edicars99), name: youtube, widget: string, required: false }
+                  - { label: Cor de destaque (hex, ex. '#820AD1'), name: corDestaque, widget: string, required: false }
                   - { label: Em breve, name: emBreve, widget: boolean, default: false, required: false }

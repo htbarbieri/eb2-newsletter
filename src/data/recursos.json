@@ -95,7 +95,8 @@
         {
           "nome": "Nubank",
           "url": "https://nu.com",
-          "descricao": "Conta nos EUA pela fintech brasileira — lançamento oficial em setembro de 2026."
+          "descricao": "Conta nos EUA pela fintech brasileira — lançamento oficial em setembro de 2026.",
+          "corDestaque": "#820AD1"
         },
         {
           "nome": "Chase",

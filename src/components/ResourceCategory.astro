@@ -100,9 +100,11 @@ const badgeMap = {
             target="_blank"
             rel="noopener noreferrer"
             class:list={[
-              'group block rounded-xl border border-us-navy/10 border-t-4 bg-white p-4 shadow-sm transition-all active:bg-surface sm:hover:-translate-y-0.5 sm:hover:shadow-md',
-              accentMap[category.accent],
+              'group block rounded-xl bg-white p-4 shadow-sm transition-all active:bg-surface sm:hover:-translate-y-0.5 sm:hover:shadow-md',
+              link.corDestaque ? 'border-2' : 'border border-us-navy/10 border-t-4',
+              !link.corDestaque && accentMap[category.accent],
             ]}
+            style={link.corDestaque ? `border-color: ${link.corDestaque}` : undefined}
           >
             <div class="flex items-start justify-between gap-2">
               <h3 class="font-ui font-semibold text-charcoal group-hover:text-us-navy transition-colors">

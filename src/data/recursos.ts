@@ -17,6 +17,8 @@ export interface ResourceLink {
   instagrams?: ResourceInstagram[]
   /** Handle ou ID do canal YouTube (ex. edicars99) */
   youtube?: string
+  /** Cor hex para contorno de destaque do card (ex. #820AD1) */
+  corDestaque?: string
 }
 
 export interface ResourceCategory {
