@@ -32,3 +32,5 @@ O quadro é de **tensão crescente**: a sentença favorável segue de pé e com 
 2. **Eventual pedido de *stay*** pelo governo — se concedido, suspenderia os efeitos da sentença durante a apelação;
 3. **Prazo de 30/09** (fim do ano fiscal) — risco de perda de números de visto EB;
 4. **Retomada dos agendamentos** nos consulados após a pausa de "treinamento".
+
+Análise completa sobre o cenário de *stay* na newsletter: [O governo tem chances de conseguir um stay?](/newsletter/2026-09-10-governo-tem-chances-de-stay)
