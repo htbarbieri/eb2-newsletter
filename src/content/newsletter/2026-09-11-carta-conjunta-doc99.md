@@ -11,6 +11,14 @@ tags: ["Doc 99", "carta conjunta", "amended complaint", "atualização"]
 
 ---
 
+> **Antes de tudo, um aviso importante: nada parou até 30/09.**
+>
+> A data de 30 de setembro é apenas o prazo para as partes proporem um **cronograma das questões restantes** do processo — não é prazo para o governo implementar a sentença, nem significa que o caso "hiberna" até lá.
+>
+> A cobrança pelo cumprimento da ordem de 21/08 (os 43.000+ casos devolvidos) corre em **trilha separada** e continua ativa na mesa da Juíza Vargas, que pode decidir sobre os pedidos de enforcement (*Doc 97*) **a qualquer momento** — inclusive antes de 30/09.
+
+---
+
 ## 1. O que a carta diz
 
 Em cumprimento à ordem de 21 de agosto (*Doc 83*), as partes **se reuniram em 10 de setembro de 2026** para discutir o caminho das **demais alegações do processo** (*remaining claims*) — os pedidos da ação que não foram decididos na sentença parcial de agosto.

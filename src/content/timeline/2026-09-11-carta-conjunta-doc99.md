@@ -15,10 +15,10 @@ Em **11 de setembro de 2026**, as partes protocolaram **carta conjunta** (*Doc 9
 * Os autores informaram que pretendem apresentar uma **petição emendada** (*amended complaint*) — conteúdo ainda não detalhado;
 * Pedem prazo até **30 de setembro** para apresentar **carta de status conjunta** com o cronograma proposto para as próximas fases.
 
-## O que a carta *não* muda
+## O que a carta *não* muda — nada parou até 30/09
 
-* **30/09 não é prazo para o governo implementar a sentença** — é só o prazo para as partes proporem cronograma das questões restantes;
-* A disputa de **enforcement** (*Doc 96* / *Doc 97*) é registrada como **questão separada** — a cobrança pela implementação imediata segue na mesa da Juíza Vargas;
+* **30/09 não é prazo para o governo implementar a sentença** — é só o prazo para as partes proporem cronograma das questões restantes do processo;
+* O caso **não "hiberna"** até lá: a disputa de **enforcement** (*Doc 96* / *Doc 97*) é registrada como **questão separada** e a Juíza Vargas pode decidir sobre ela **a qualquer momento**, inclusive antes de 30/09;
 * **Não há pedido de *stay*** no documento.
 
 ## Próximo marco
