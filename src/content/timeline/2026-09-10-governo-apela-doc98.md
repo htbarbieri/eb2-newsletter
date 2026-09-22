@@ -16,21 +16,19 @@ Em **10 de setembro de 2026**, o DOJ protocolou **Notice of Appeal** (*Doc 98*):
 * A Juíza Vargas **mantém jurisdição sobre o enforcement** da própria ordem.
 * **Timing:** a apelação veio **um dia depois** do *Doc 97*, em que os autores pediram relatórios semanais e a produção dos documentos de treinamento.
 
-## Quadro das duas frentes
+## Quadro das duas frentes *(atualizado após Docs 100–105)*
 
 | Frente | Situação |
 |--------|----------|
-| Primeira instância (SDNY) | Autores pressionam por enforcement; juíza já sinalizou que re-análise de *public charge* de todos contraria a ordem; pendente decisão sobre relatórios semanais e produção de documentos |
-| Segundo Circuito | Governo inicia apelação da sentença; possível (porém não provável) pedido de *stay* nas próximas semanas |
-| No terreno | Pausa global de agendamentos mantida (exceto Hungria/Polônia); reportagem indica que pode durar meses; ano fiscal encerra em 30/09 |
+| Primeira instância (SDNY) | Enforcement (*Doc 97*) pendente; moção de *stay* (*Doc 100/101*) pendente — **ainda não concedida** |
+| Segundo Circuito | Apelação iniciada (*Doc 98*); governo ameaça levar o *stay* em **25/09** se a juíza não decidir (*Doc 103*) |
+| No terreno | Cable de 10/09 em vigor; ano fiscal encerra em 30/09 |
 
 ## Para requerentes brasileiros
 
-O quadro é de **tensão crescente**: a sentença favorável segue de pé e com supervisão judicial ativa, mas o governo agora atua em duas frentes — atrasa a implementação na primeira instância e ataca a sentença na apelação. Pontos a monitorar:
+1. **Decisão da Juíza Vargas** sobre enforcement (*Doc 97*) e sobre o *stay*;
+2. **25–28/09** — ultimato do governo vs. prazo normal dos autores para oposição;
+3. **30/09** — fim do ano fiscal / carta conjunta de cronograma (*Doc 99*);
+4. **Retomada consular** conforme o cable — contato por escrito do posto.
 
-1. **Decisão da Juíza Vargas** sobre os pedidos do *Doc 97* (relatórios semanais e produção de documentos);
-2. **Eventual pedido de *stay*** pelo governo — se concedido, suspenderia os efeitos da sentença durante a apelação;
-3. **Prazo de 30/09** (fim do ano fiscal) — risco de perda de números de visto EB;
-4. **Retomada dos agendamentos** nos consulados após a pausa de "treinamento".
-
-Análise completa sobre o cenário de *stay* na newsletter: [O governo tem chances de conseguir um stay?](/newsletter/2026-09-10-governo-tem-chances-de-stay)
+Análise atualizada: [O governo tem chances de conseguir um stay?](/newsletter/2026-09-10-governo-tem-chances-de-stay)

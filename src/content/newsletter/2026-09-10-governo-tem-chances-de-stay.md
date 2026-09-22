@@ -1,19 +1,23 @@
 ---
 title: "CLINIC v. Rubio: o governo tem chances de conseguir um stay?"
 date: 2026-09-10
-excerpt: "Análise: por que a apelação não suspende a sentença, o que seria preciso para um stay — e por que ele é improvável."
+excerpt: "Atualização 21/09: o stay foi pedido em 14/09 — ainda não concedido. Análise dos critérios Nken e do calendário até 25–30/09."
 tags: ["análise", "apelação", "stay", "Segundo Circuito"]
+---
+
+> **Atualização (21/09):** o governo **pediu** o *stay* em 14/09 (*[Doc 100/101](/timeline/2026-09-14-governo-pede-stay)*), avisou que sobe ao Segundo Circuito em **25/09** se a juíza não decidir (*[Doc 103](/timeline/2026-09-17-notice-stay-segundo-circuito)*), e os autores pedem o ritmo normal até **28/09** para responder (*[Doc 104](/timeline/2026-09-18-autores-rejeitam-prazo-stay)*). **Nenhum *stay* foi concedido.** A sentença e o cable de 10/09 **continuam em vigor**. O que muda abaixo: o prognóstico de “pedido improvável” errou; a análise de que **conceder** é difícil **mantém-se**.
+
 ---
 
 Com a apelação protocolada pelo governo em 10/09 (*[Doc 98](/timeline/2026-09-10-governo-apela-doc98)*), surgiu a preocupação natural: **"e agora, vem um *stay* e para tudo de novo?"**
 
-A resposta curta: **a apelação, sozinha, não muda nada** — e um *stay*, se pedido, enfrentaria critérios difíceis para o governo. Entenda o mecanismo.
+A resposta curta: **a apelação, sozinha, não muda nada** — e o *stay*, agora pedido, ainda precisa ser **concedido** sob critérios difíceis para o governo.
 
 ---
 
 ## 1. Quem julga a apelação?
 
-O recurso vai para a **Corte de Apelações do Segundo Circuito**, em Nova York — a instância acima do tribunal distrital da Juíza Vargas (equivalente aproximado, no Brasil, de um TRF em relação a uma vara federal).
+O recurso vai para a **Corte de Apelações do Segundo Circuito**, em Nova York — a instância acima do tribunal distrital da Juíza Vargas.
 
 Quem responde ao recurso são os **autores da ação** (CLINIC e demais), agora como *appellees*. O rito típico:
 
@@ -26,63 +30,57 @@ Quem responde ao recurso são os **autores da ação** (CLINIC e demais), agora 
 
 ## 2. A apelação suspende a sentença?
 
-**Não.** A regra geral americana é que a decisão de primeira instância **continua válida e exigível** durante o recurso. Para suspendê-la, o governo precisaria pedir e obter um ***stay* pendente de apelação** — primeiro à própria Juíza Vargas e, se negado, ao Segundo Circuito (regra *FRAP 8*).
+**Não.** A regra geral americana é que a decisão de primeira instância **continua válida e exigível** durante o recurso. Para suspendê-la, o governo precisa **pedir e obter** um ***stay* pendente de apelação** — primeiro à própria Juíza Vargas e, se negado ou sem resposta, ao Segundo Circuito (*FRAP 8*).
 
-**Até agora, o governo não pediu stay.** O *Doc 98* é só a notificação do recurso.
+**Status atual:**
 
-Enquanto não houver *stay* concedido:
-
-* A anulação da pausa dos 75 países **segue em vigor**;
-* Os 43.000+ casos **continuam devolvidos** para adjudicação;
-* A Juíza Vargas **mantém o controle do enforcement** — os pedidos do *Doc 97* (relatórios semanais, produção dos documentos de treinamento) continuam na mesa dela.
-
----
-
-## 3. Se pedisse, quanto tempo levaria?
-
-| Modalidade | Prazo típico no Segundo Circuito |
-|------------|----------------------------------|
-| *Administrative stay* (suspensão provisória para dar tempo de analisar) | Horas a poucos dias |
-| *Emergency motion* (urgência justificada) | Alguns dias a 2 semanas |
-| *Motion for stay* ordinária (painel de moções) | 2 a 6 semanas |
-
-O Segundo Circuito tem painéis de moções semanais, então pedidos urgentes andam rápido — mas rapidez não significa sucesso.
+* Pedido feito em **14/09** (*Doc 100/101*);
+* Governo admite no próprio memorando que **está cumprindo** a sentença e trata a pausa como inoperante;
+* Pedido alternativo: *stay* só do *remand* dos ~43 mil casos (especialmente não-partes), mantendo a vacatur da política;
+* **Enquanto não houver *stay* concedido**, cable, vacatur e obrigação de processar seguem.
 
 ---
 
-## 4. Os quatro critérios — e por que jogam contra o governo
+## 3. Calendário da briga do *stay*
 
-Para obter um *stay*, o governo teria que demonstrar os fatores clássicos (*Nken v. Holder*):
+| Data | Evento |
+|------|--------|
+| 14/09 | Moção de *stay* na primeira instância |
+| 17/09 | Governo marca **25/09** como data para subir ao Segundo Circuito se não houver decisão |
+| 18/09 | Autores: prazo artificial; oposição até **28/09** no ritmo normal |
+| 21/09 | Governo rebate (*Doc 105*) e mantém o ultimato de 25/09 |
+| 25–30/09 | Possível ida ao Segundo Circuito + fim do ano fiscal |
+
+Prazos típicos no Segundo Circuito, se o pedido subir: *administrative stay* em horas/dias; moção de emergência em dias a ~2 semanas; painel ordinário em 2–6 semanas. Rapidez ≠ concessão.
+
+---
+
+## 4. Os quatro critérios — e por que ainda jogam contra o governo
+
+Para obter um *stay*, o governo precisa dos fatores clássicos (*Nken v. Holder*):
 
 1. **Probabilidade de sucesso no mérito** da apelação;
 2. **Dano irreparável** ao governo sem o *stay*;
 3. **Ausência de dano substancial** à outra parte;
 4. **Interesse público**.
 
-O cenário é difícil para o governo:
+O memorando (*Doc 101*) aposta em *consular nonreviewability*, § 1104(a) e capacidade consular / treinamento de *public charge*. Contra isso:
 
-* A sentença apoia-se em **violação direta de texto legal** — a proibição de discriminação por nacionalidade da INA (Seção 1152(a)(1)(A));
-* O dano aos 43.000+ requerentes é **concreto e documentado** nos autos;
-* O próprio DOJ **admitiu em audiência** que trata as recusas como anuladas e devolvidas;
-* Argumentar "dano irreparável" por ter que **processar vistos conforme a lei** é uma tese fraca.
+* A sentença apoia-se em **violação de texto legal** (Seção 1152(a)(1)(A));
+* O dano aos 43.000+ requerentes — e ao ano fiscal — é **concreto**;
+* O próprio governo **admite cumprimento** e inoperância da pausa;
+* A Juíza Vargas já sinalizou em audiência que re-vetting em massa seria **"grosseiramente iniquitativo"**;
+* Os autores apontam **atraso de quase um mês** antes do pedido — fator que enfraquece urgência irreparável.
 
-Por isso mantemos no portal a avaliação: pedido de *stay* é **possível, porém não provável** — e, se vier, com chances reduzidas.
-
----
-
-## 5. O detalhe do calendário
-
-Se o governo quisesse um *stay* com efeito prático, precisaria dele **antes de 30/09** (fim do ano fiscal) — depois disso, boa parte do impacto nos números de visto EB deste ano já estaria consolidada.
-
-Ou seja: quanto mais o tempo passa sem pedido de *stay*, mais a apelação parece ser sobre **preservar posição jurídica no longo prazo** do que sobre travar as emissões agora.
+Avaliação atualizada: **pedir** aconteceu; **obter** continua **improvável na primeira instância** e **difícil no Segundo Circuito** — sem garantia.
 
 ---
 
-## 6. Resumo para quem está aflito
+## 5. Resumo para quem está aflito
 
-* **Nada parou.** A sentença de 21/08 segue plenamente válida e exequível.
-* **Não há stay** — nem pedido, até agora.
-* O gargalo real continua sendo o **ritmo de implementação pelo DOS** (pausa de "treinamento", agendamentos), que está sob **supervisão ativa da Juíza Vargas** na primeira instância.
-* A apelação é uma frente de **longo prazo** (meses a mais de um ano), não um interruptor que desliga a decisão.
+* **Nada parou.** A sentença de 21/08 e o cable de 10/09 seguem válidos.
+* **Há pedido de *stay*** — **não há *stay* concedido**.
+* O próximo marco é a reação da Juíza Vargas (ou o silêncio até 25/09) e, se subir, o painel de moções do Segundo Circuito.
+* O gargalo prático continua sendo o **ritmo do DOS** na ponta consular, sob supervisão da primeira instância.
 
 *Este conteúdo é informativo e não substitui orientação jurídica individual. Consulte advogado de imigração para o seu caso.*
