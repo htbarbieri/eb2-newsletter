@@ -19,6 +19,8 @@ Em **18 de setembro de 2026**, os autores responderam ao *Notice* do governo (*D
 
 ## Em 21/09
 
-O governo rebateu (*Doc 105*), insistindo que a declaração Armstrong basta para a urgência e que, se não houver decisão até 25/09, subirá ao Segundo Circuito sob *FRAP 8*.
+O governo rebateu (*[Doc 105](/timeline/2026-09-21-governo-insiste-ultimato-stay)*), insistindo que a declaração Armstrong basta para a urgência e que, se não houver decisão até 25/09, subirá ao Segundo Circuito sob *FRAP 8*.
 
 **Status:** moção de *stay* **pendente**; sentença **em vigor**.
+
+Cobertura da semana: [A semana do stay — o que mudou entre 14 e 21/09](/newsletter/2026-09-21-semana-do-stay).
