@@ -37,26 +37,31 @@ const posts = (await getCollection('newsletter')).sort(
         Cobertura do caso <em>CLINIC v. Rubio</em> — a suspensão de vistos de imigrante para
         75 países, incluindo o Brasil, e o que muda na prática para requerentes EB2.
       </p>
-      <div class="mt-6 sm:mt-8">
+      <div class="mt-6 flex flex-wrap gap-3 sm:mt-8">
         <a
           href="#posts"
           class="inline-flex min-h-[48px] items-center rounded-full bg-br-green px-6 py-3 font-ui text-sm font-semibold text-white shadow-sm transition-colors active:bg-us-navy sm:min-h-0 sm:px-5 sm:py-2.5"
         >
-          Ver atualizações
+          Últimas atualizações
+        </a>
+        <a
+          href="#timeline"
+          class="inline-flex min-h-[48px] items-center rounded-full border border-us-navy/20 bg-white px-6 py-3 font-ui text-sm font-semibold text-us-navy transition-colors active:bg-surface sm:min-h-0 sm:px-5 sm:py-2.5"
+        >
+          Linha do tempo
         </a>
       </div>
     </div>
   </section>
 
   <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-12">
-    <Timeline />
-
-    <section id="posts" class="mt-10 scroll-mt-20 sm:mt-16 sm:scroll-mt-24">
+    <section id="posts" class="scroll-mt-20 sm:scroll-mt-24">
       <div class="mb-6 sm:mb-8">
-        <div>
-          <p class="font-ui text-xs font-semibold uppercase tracking-widest text-us-navy/60">Newsletter</p>
-          <h2 class="mt-1 font-display text-xl font-semibold text-us-navy sm:text-2xl">Últimas publicações</h2>
-        </div>
+        <p class="font-ui text-xs font-semibold uppercase tracking-widest text-us-navy/60">Newsletter</p>
+        <h2 class="mt-1 font-display text-xl font-semibold text-us-navy sm:text-2xl">Últimas publicações</h2>
+        <p class="mt-2 text-sm leading-relaxed text-charcoal/70">
+          Análises e atualizações do caso — o que saiu de mais recente primeiro.
+        </p>
       </div>
 
       {
@@ -73,5 +78,9 @@ const posts = (await getCollection('newsletter')).sort(
         )
       }
     </section>
+
+    <div class="mt-10 sm:mt-14">
+      <Timeline />
+    </div>
   </div>
 </BaseLayout>
