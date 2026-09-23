@@ -56,6 +56,8 @@ Ou seja: mesmo pedindo *stay*, o governo **não nega** que a pausa caiu e que pr
 4. **30/09** — fim do ano fiscal + carta conjunta de cronograma prometida no *Doc 99*;
 5. **Ponta consular** — cable de 10/09 segue; contato por escrito do posto.
 
+**Atualização 23/09:** a Juíza Vargas ordenou (*[Doc 106](/timeline/2026-09-23-vargas-prazo-oposicao-stay)*) que os autores respondam ao *stay* até **25/09, 17h** — ainda sem concessão nem negação. Cruzamento com o que a ponta já faz: [O que o Medani revela sobre a retomada](/newsletter/2026-09-23-medani-retomada-eb2).
+
 Análise dos critérios *Nken* (por que **conceder** continua difícil): [O governo tem chances de conseguir um stay?](/newsletter/2026-09-10-governo-tem-chances-de-stay).
 
 *Este conteúdo é informativo e não substitui orientação jurídica individual. Consulte advogado de imigração para o seu caso.*

@@ -22,3 +22,5 @@ Em **23 de setembro de 2026**, a Juíza **Jeannette A. Vargas** proferiu ordem c
 Oposição dos autores em **25/09** → decisão da juíza sobre o *stay* (ou silêncio) → possível ida ao Segundo Circuito.
 
 Sequência: [*Doc 100/101*](/timeline/2026-09-14-governo-pede-stay) → [*Doc 103*](/timeline/2026-09-17-notice-stay-segundo-circuito) → [*Doc 104*](/timeline/2026-09-18-autores-rejeitam-prazo-stay) → [*Doc 105*](/timeline/2026-09-21-governo-insiste-ultimato-stay) → **Doc 106**.
+
+Sobre o que a ponta consular já está fazendo (cruzamento com *Medani*): [O que o Medani revela sobre a retomada](/newsletter/2026-09-23-medani-retomada-eb2).
