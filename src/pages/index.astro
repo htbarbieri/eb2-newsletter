@@ -7,6 +7,9 @@ import Timeline from '../components/Timeline.astro'
 const posts = (await getCollection('newsletter')).sort(
   (a, b) => b.data.date.getTime() - a.data.date.getTime(),
 )
+
+const highlights = posts.slice(0, 2)
+const olderPosts = posts.slice(2)
 ---
 
 <BaseLayout title="EB2 em Foco">
@@ -39,7 +42,7 @@ const posts = (await getCollection('newsletter')).sort(
       </p>
       <div class="mt-6 flex flex-wrap gap-3 sm:mt-8">
         <a
-          href="#posts"
+          href="#destaques"
           class="inline-flex min-h-[48px] items-center rounded-full bg-br-green px-6 py-3 font-ui text-sm font-semibold text-white shadow-sm transition-colors active:bg-us-navy sm:min-h-0 sm:px-5 sm:py-2.5"
         >
           Últimas atualizações
@@ -55,32 +58,53 @@ const posts = (await getCollection('newsletter')).sort(
   </section>
 
   <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-12">
-    <section id="posts" class="scroll-mt-20 sm:scroll-mt-24">
-      <div class="mb-6 sm:mb-8">
-        <p class="font-ui text-xs font-semibold uppercase tracking-widest text-us-navy/60">Newsletter</p>
-        <h2 class="mt-1 font-display text-xl font-semibold text-us-navy sm:text-2xl">Últimas publicações</h2>
-        <p class="mt-2 text-sm leading-relaxed text-charcoal/70">
-          Análises e atualizações do caso — o que saiu de mais recente primeiro.
-        </p>
-      </div>
+    {
+      highlights.length > 0 && (
+        <section id="destaques" class="scroll-mt-20 sm:scroll-mt-24">
+          <div class="mb-4 flex flex-wrap items-end justify-between gap-3 sm:mb-6">
+            <div>
+              <p class="font-ui text-xs font-semibold uppercase tracking-widest text-br-green">Em destaque</p>
+              <h2 class="mt-1 font-display text-xl font-semibold text-us-navy sm:text-2xl">
+                {highlights.length === 1 ? 'Última atualização' : 'Últimas atualizações'}
+              </h2>
+            </div>
+            {olderPosts.length > 0 && (
+              <a
+                href="#posts"
+                class="font-ui text-sm font-medium text-br-green active:text-us-navy"
+              >
+                Publicações anteriores ↓
+              </a>
+            )}
+          </div>
 
-      {
-        posts.length > 0 ? (
-          <div class="grid gap-6 sm:grid-cols-2">
-            {posts.map((post) => (
+          <div class:list={['grid gap-4 sm:gap-6', highlights.length > 1 && 'sm:grid-cols-2']}>
+            {highlights.map((post) => (
               <PostCard post={post} />
             ))}
           </div>
-        ) : (
-          <p class="rounded-xl border border-dashed border-us-navy/20 bg-white p-8 text-center text-charcoal/60">
-            Nenhuma publicação ainda. Em breve.
-          </p>
-        )
-      }
-    </section>
+        </section>
+      )
+    }
 
     <div class="mt-10 sm:mt-14">
       <Timeline />
     </div>
+
+    {
+      olderPosts.length > 0 && (
+        <section id="posts" class="mt-10 scroll-mt-20 sm:mt-16 sm:scroll-mt-24">
+          <div class="mb-6 sm:mb-8">
+            <p class="font-ui text-xs font-semibold uppercase tracking-widest text-us-navy/60">Newsletter</p>
+            <h2 class="mt-1 font-display text-xl font-semibold text-us-navy sm:text-2xl">Publicações anteriores</h2>
+          </div>
+          <div class="grid gap-6 sm:grid-cols-2">
+            {olderPosts.map((post) => (
+              <PostCard post={post} />
+            ))}
+          </div>
+        </section>
+      )
+    }
   </div>
 </BaseLayout>
