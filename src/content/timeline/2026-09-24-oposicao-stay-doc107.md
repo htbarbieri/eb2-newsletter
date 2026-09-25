@@ -23,6 +23,6 @@ O Anexo E (status report *Medani* de 21/09) confirma: postos sem treinamento **p
 
 ## Status para o leitor
 
-**Nenhum *stay* foi concedido.** A oposição está nos autos; a juíza decide. No mesmo dia ela emitiu o [*Order to Show Cause* (*Doc 108*)](/timeline/2026-09-24-order-to-show-cause-doc108) — sinal de que pode **apertar** a sentença, não suspendê-la.
+Em **25/09**, a juíza **negou** o *stay* (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*). No mesmo dia da oposição ela havia emitido o [*Order to Show Cause* (*Doc 108*)](/timeline/2026-09-24-order-to-show-cause-doc108) — sinal de que pode **apertar** a sentença, não suspendê-la.
 
-Cobertura completa: [Vargas cogita prazo para os 43 mil casos](/newsletter/2026-09-24-vargas-prazo-certo).
+Cobertura: [Vargas cogita prazo](/newsletter/2026-09-24-vargas-prazo-certo) · [Vargas nega o stay](/newsletter/2026-09-25-vargas-nega-stay).

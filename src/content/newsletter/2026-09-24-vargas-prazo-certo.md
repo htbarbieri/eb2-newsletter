@@ -1,16 +1,18 @@
 ---
 title: "Vargas cogita prazo judicial: governo pode ter de concluir os 43 mil casos até data certa"
 date: 2026-09-24
-excerpt: "Docs 107 e 108, 24/09: autores rebatem o stay e a juíza duvida do cumprimento — Order to Show Cause sobre injunction com data certa. Stay ainda não foi decidido; nada parou."
+excerpt: "Docs 107 e 108, 24/09: autores rebatem o stay e a juíza duvida do cumprimento. Atualização 25/09: Vargas NEGOU o stay (Doc 109)."
 tags: ["Doc 107", "Doc 108", "Vargas", "stay", "atualização"]
 ---
 
+> **Atualização (25/09):** a Juíza Vargas **NEGOu** o *stay* (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*). Cobertura: [Vargas nega o stay](/newsletter/2026-09-25-vargas-nega-stay).
+
 **Documentos:** oposição ao *stay* (*[Doc 107](/timeline/2026-09-24-oposicao-stay-doc107)*) e *Order to Show Cause* (*[Doc 108](/timeline/2026-09-24-order-to-show-cause-doc108)*), ambos em **24 de setembro de 2026**.  
-**Mensagem em uma linha:** o governo pediu para **congelar** a sentença; a juíza, no mesmo dia, sinalizou que pode **apertar** — e exigir prazo para adjudicar os casos remandados.
+**Mensagem em uma linha:** o governo pediu para **congelar** a sentença; a juíza, no mesmo dia, sinalizou que pode **apertar** — e exigir prazo para adjudicar os casos remandados. No dia seguinte, **negou** o *stay*.
 
 ---
 
-> **Para quem está aflito:** nada parou. Pedir *stay* ≠ obter *stay*. A sentença de 21/08 e o cable de 10/09 **continuam em vigor**. O *Doc 108* **não** é ainda a *injunction* com prazo — é a juíza abrindo o procedimento e deixando claro que duvida do cumprimento.
+> **Para quem está aflito:** nada parou. Pedir *stay* ≠ obter *stay* — e agora o *stay* na primeira instância **foi negado**. A sentença de 21/08 e o cable de 10/09 **continuam em vigor**. O *Doc 108* **não** é ainda a *injunction* com prazo — é a juíza abrindo o procedimento e deixando claro que duvida do cumprimento.
 
 ---
 
@@ -68,8 +70,8 @@ Os cables do Anexo F: **26 STATE 86164** (1º/09) — quatro requisitos de trein
 | Frente | Status em 24/09 |
 |--------|-----------------|
 | Sentença + cable 88862 | **Em vigor.** |
-| *Stay* (Vargas) | **Pedido**, não concedido. Oposição nos autos (*Doc 107*). |
-| *Stay* (Segundo Circuito) | Ainda não protocolado. O ultimato do DOJ era 25/09 se a juíza “não agisse” — ela agiu, só que no sentido oposto. |
+| *Stay* (Vargas) | **Negado** em 25/09 (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*). |
+| *Stay* (Segundo Circuito) | Ainda possível sob *FRAP 8*. O ultimato do DOJ era 25/09 se a juíza “não agisse” — ela agiu e **negou**. |
 | *Doc 108* | Procedimento aberto. *Injunction* com data certa **ainda não** foi emitida. |
 | Ponta consular | Treinamento + worksheet + reentrevista; possível revisão extra após aprovação. Aguarde contato escrito do posto. |
 

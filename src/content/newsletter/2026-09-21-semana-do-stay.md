@@ -60,6 +60,8 @@ Ou seja: mesmo pedindo *stay*, o governo **não nega** que a pausa caiu e que pr
 
 **Atualização 24/09:** oposição protocolada (*[Doc 107](/timeline/2026-09-24-oposicao-stay-doc107)*). No mesmo dia, Vargas emitiu *Order to Show Cause* cogitando prazo para os 43 mil (*[Doc 108](/timeline/2026-09-24-order-to-show-cause-doc108)*). Cobertura: [Vargas cogita prazo judicial](/newsletter/2026-09-24-vargas-prazo-certo).
 
+**Atualização 25/09:** Vargas **NEGOu** o *stay* (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*). Cobertura: [Vargas nega o stay](/newsletter/2026-09-25-vargas-nega-stay).
+
 Análise dos critérios *Nken* (por que **conceder** continua difícil): [O governo tem chances de conseguir um stay?](/newsletter/2026-09-10-governo-tem-chances-de-stay).
 
 *Este conteúdo é informativo e não substitui orientação jurídica individual. Consulte advogado de imigração para o seu caso.*

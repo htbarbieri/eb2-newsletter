@@ -25,8 +25,8 @@ Citando a autoridade inerente de fazer cumprir as próprias decisões, a juíza 
 
 ## O que isso é — e o que ainda não é
 
-* **Não é** *stay*. O pedido de suspensão do governo (*[Doc 100](/timeline/2026-09-14-governo-pede-stay)*) **continua pendente**.
+* **Não era** *stay* — e em **25/09** a juíza **negou** o *stay* (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*).
 * **Não é** ainda a *injunction* com prazo — é a juíza **abrindo o procedimento** e sinalizando que pode apertar a ordem.
 * **É** o cenário mais favorável aos requerentes desde 21/08: vacatur sem prazo pode virar **deadline judicial**, com risco de *contempt* se o governo descumprir.
 
-No mesmo dia, os autores protocolaram a [oposição ao *stay* (*Doc 107*)](/timeline/2026-09-24-oposicao-stay-doc107). Cobertura completa: [Vargas cogita prazo para os 43 mil casos](/newsletter/2026-09-24-vargas-prazo-certo).
+No mesmo dia, os autores protocolaram a [oposição ao *stay* (*Doc 107*)](/timeline/2026-09-24-oposicao-stay-doc107). Cobertura: [Vargas cogita prazo](/newsletter/2026-09-24-vargas-prazo-certo) · [Vargas nega o stay](/newsletter/2026-09-25-vargas-nega-stay).

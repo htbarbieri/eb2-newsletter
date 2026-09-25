@@ -1,9 +1,11 @@
 ---
 title: "CLINIC v. Rubio: o governo tem chances de conseguir um stay?"
 date: 2026-09-10
-excerpt: "Atualização 21/09: o stay foi pedido em 14/09 — ainda não concedido. Análise dos critérios Nken e do calendário até 25–30/09."
+excerpt: "Atualização 25/09: Vargas NEGOU o stay (Doc 109). A análise Nken de que conceder seria difícil se confirmou na primeira instância."
 tags: ["análise", "apelação", "stay", "Segundo Circuito"]
 ---
+
+> **Atualização (25/09):** a Juíza Vargas **NEGOu** o *stay* (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*). A análise abaixo — de que **conceder** seria difícil — **se confirmou** na primeira instância. O governo ainda pode pedir *stay* ao Segundo Circuito. Cobertura: [Vargas nega o stay](/newsletter/2026-09-25-vargas-nega-stay).
 
 > **Atualização (21/09):** o governo **pediu** o *stay* em 14/09 (*[Doc 100/101](/timeline/2026-09-14-governo-pede-stay)*), avisou que sobe ao Segundo Circuito em **25/09** se a juíza não decidir (*[Doc 103](/timeline/2026-09-17-notice-stay-segundo-circuito)*), e os autores pedem o ritmo normal até **28/09** para responder (*[Doc 104](/timeline/2026-09-18-autores-rejeitam-prazo-stay)*). **Nenhum *stay* foi concedido.** A sentença e o cable de 10/09 **continuam em vigor**. O que muda abaixo: o prognóstico de “pedido improvável” errou; a análise de que **conceder** é difícil **mantém-se**.
 

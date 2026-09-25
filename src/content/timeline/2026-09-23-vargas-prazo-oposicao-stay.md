@@ -17,10 +17,10 @@ Em **23 de setembro de 2026**, a Juíza **Jeannette A. Vargas** proferiu ordem c
 * Acelera o briefing: o prazo normal de oposição (28/09, Local Rule) foi antecipado para **25/09 às 17h**.
 * Coincide com o dia em que o governo ameaçava subir ao Segundo Circuito se a juíza não decidisse (*Doc 103*) — agora a juíza **manda os autores falarem** nessa data, em vez de deixar o calendário só no ultimato do DOJ.
 
-## Atualização 24/09
+## Atualização 24–25/09
 
-Os autores protocolaram a oposição **um dia antes** do prazo: [*Doc 107*](/timeline/2026-09-24-oposicao-stay-doc107). No mesmo dia, a juíza emitiu [*Order to Show Cause* (*Doc 108*)](/timeline/2026-09-24-order-to-show-cause-doc108) — não sobre o *stay*, e sim sobre uma possível *injunction* com data certa para concluir as adjudicações.
+Os autores protocolaram a oposição **um dia antes** do prazo: [*Doc 107*](/timeline/2026-09-24-oposicao-stay-doc107). Em 24/09 a juíza emitiu [*Order to Show Cause* (*Doc 108*)](/timeline/2026-09-24-order-to-show-cause-doc108). Em **25/09**, **negou** o *stay* (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*).
 
-Sequência: [*Doc 100/101*](/timeline/2026-09-14-governo-pede-stay) → [*Doc 103*](/timeline/2026-09-17-notice-stay-segundo-circuito) → [*Doc 104*](/timeline/2026-09-18-autores-rejeitam-prazo-stay) → [*Doc 105*](/timeline/2026-09-21-governo-insiste-ultimato-stay) → **Doc 106** → [*107*](/timeline/2026-09-24-oposicao-stay-doc107) / [*108*](/timeline/2026-09-24-order-to-show-cause-doc108).
+Sequência: [*Doc 100/101*](/timeline/2026-09-14-governo-pede-stay) → [*Doc 103*](/timeline/2026-09-17-notice-stay-segundo-circuito) → [*Doc 104*](/timeline/2026-09-18-autores-rejeitam-prazo-stay) → [*Doc 105*](/timeline/2026-09-21-governo-insiste-ultimato-stay) → **Doc 106** → [*107*](/timeline/2026-09-24-oposicao-stay-doc107) / [*108*](/timeline/2026-09-24-order-to-show-cause-doc108) → [*109*](/timeline/2026-09-25-vargas-nega-stay-doc109).
 
-Cobertura: [Vargas cogita prazo para os 43 mil casos](/newsletter/2026-09-24-vargas-prazo-certo).
+Cobertura: [Vargas nega o stay](/newsletter/2026-09-25-vargas-nega-stay).
