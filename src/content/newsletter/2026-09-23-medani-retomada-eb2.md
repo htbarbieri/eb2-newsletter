@@ -74,7 +74,7 @@ Os autores *Medani* alertam (*Doc 118*): totais de “DV applicants” **não** 
 
 | Frente | Status |
 |--------|--------|
-| *Stay* (Vargas) | Ainda **não** concedido. Em 23/09 a juíza só antecipou a oposição dos autores para **25/09, 17h** (*[Doc 106](/timeline/2026-09-23-vargas-prazo-oposicao-stay)*). |
+| *Stay* (Vargas) | Ainda **não** concedido. Oposição protocolada em 24/09 (*[Doc 107](/timeline/2026-09-24-oposicao-stay-doc107)*). No mesmo dia, Vargas abriu *Order to Show Cause* sobre prazo para os 43 mil (*[Doc 108](/timeline/2026-09-24-order-to-show-cause-doc108)*). |
 | Sentença + cable | **Em vigor** até ordem em contrário. |
 | Ano fiscal (30/09) | Pressão forte no *Medani* (DV morre no dia); no EB2, números employment-based também correm risco se a máquina for lenta — mas a lógica jurídica é outra. |
 

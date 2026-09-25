@@ -58,6 +58,8 @@ Ou seja: mesmo pedindo *stay*, o governo **não nega** que a pausa caiu e que pr
 
 **Atualização 23/09:** a Juíza Vargas ordenou (*[Doc 106](/timeline/2026-09-23-vargas-prazo-oposicao-stay)*) que os autores respondam ao *stay* até **25/09, 17h** — ainda sem concessão nem negação. Cruzamento com o que a ponta já faz: [O que o Medani revela sobre a retomada](/newsletter/2026-09-23-medani-retomada-eb2).
 
+**Atualização 24/09:** oposição protocolada (*[Doc 107](/timeline/2026-09-24-oposicao-stay-doc107)*). No mesmo dia, Vargas emitiu *Order to Show Cause* cogitando prazo para os 43 mil (*[Doc 108](/timeline/2026-09-24-order-to-show-cause-doc108)*). Cobertura: [Vargas cogita prazo judicial](/newsletter/2026-09-24-vargas-prazo-certo).
+
 Análise dos critérios *Nken* (por que **conceder** continua difícil): [O governo tem chances de conseguir um stay?](/newsletter/2026-09-10-governo-tem-chances-de-stay).
 
 *Este conteúdo é informativo e não substitui orientação jurídica individual. Consulte advogado de imigração para o seu caso.*
