@@ -29,4 +29,6 @@ Citando a autoridade inerente de fazer cumprir as próprias decisões, a juíza 
 * **Não é** ainda a *injunction* com prazo — é a juíza **abrindo o procedimento** e sinalizando que pode apertar a ordem.
 * **É** o cenário mais favorável aos requerentes desde 21/08: vacatur sem prazo pode virar **deadline judicial**, com risco de *contempt* se o governo descumprir.
 
-No mesmo dia, os autores protocolaram a [oposição ao *stay* (*Doc 107*)](/timeline/2026-09-24-oposicao-stay-doc107). Cobertura: [Vargas cogita prazo](/newsletter/2026-09-24-vargas-prazo-certo) · [Vargas nega o stay](/newsletter/2026-09-25-vargas-nega-stay).
+No mesmo dia, os autores protocolaram a [oposição ao *stay* (*Doc 107*)](/timeline/2026-09-24-oposicao-stay-doc107). Em **29/09**, as partes pediram prazo simultâneo de **5/10, 17h**, para responder a esta ordem (*[Doc 110](/timeline/2026-09-29-prazo-respostas-doc110)*).
+
+Cobertura: [Vargas cogita prazo](/newsletter/2026-09-24-vargas-prazo-certo) · [Vargas nega o stay](/newsletter/2026-09-25-vargas-nega-stay) · [Próximos prazos](/newsletter/2026-09-29-proximos-prazos).

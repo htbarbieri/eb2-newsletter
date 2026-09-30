@@ -10,6 +10,8 @@ tags: ["Doc 109", "stay", "Vargas", "atualização"]
 
 ---
 
+> **Atualização (29/09):** as partes pediram respostas ao *Order to Show Cause* para **5/10, 17h** (*[Doc 110](/timeline/2026-09-29-prazo-respostas-doc110)*) e um calendário do resto do caso até 23/10 e 6/11 (*[Doc 111](/timeline/2026-09-29-carta-conjunta-doc111)*). O *stay* **continua negado**. [Próximos prazos](/newsletter/2026-09-29-proximos-prazos).
+
 > **Para quem está aflito:** a sentença de 21–24/08 e o cable de 10/09 **continuam em vigor**, agora com decisão expressa da juíza recusando a suspensão. Isso **não** é ainda o Segundo Circuito (o governo ainda pode subir), e **não** garante visto — mas o cenário de “tudo para de novo por *stay*” **não aconteceu** na primeira instância.
 
 ---

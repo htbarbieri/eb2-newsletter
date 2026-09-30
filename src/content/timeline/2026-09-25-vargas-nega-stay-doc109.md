@@ -25,6 +25,6 @@ Negou o *stay* **total** e a alternativa **parcial** (só o *remand* das ~43 mil
 
 * Sentença + cable **26 STATE 88862** **reforçados**.
 * O governo ainda pode pedir *stay* ao **Segundo Circuito** (*FRAP 8*).
-* O [*Order to Show Cause* (*Doc 108*)](/timeline/2026-09-24-order-to-show-cause-doc108) — prazo certo para os 43 mil — **continua aberto**.
+* O [*Order to Show Cause* (*Doc 108*)](/timeline/2026-09-24-order-to-show-cause-doc108) — prazo certo para os 43 mil — **continua aberto**. Em 29/09 as partes pediram respostas simultâneas em **5/10, 17h** (*[Doc 110](/timeline/2026-09-29-prazo-respostas-doc110)*).
 
-Cobertura: [Vargas nega o stay](/newsletter/2026-09-25-vargas-nega-stay).
+Cobertura: [Vargas nega o stay](/newsletter/2026-09-25-vargas-nega-stay) · [Próximos prazos](/newsletter/2026-09-29-proximos-prazos).
