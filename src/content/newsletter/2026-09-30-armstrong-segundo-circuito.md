@@ -14,6 +14,8 @@ tags: ["análise", "Segundo Circuito", "Armstrong"]
 
 > **Para quem está aflito:** a sentença de agosto **continua em vigor**. A Vargas **negou** o *stay* em 25/09 (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*). Protocolar declaração no Segundo Circuito **não congela** entrevista, exame nem emissão. Nada muda no consulado até uma corte **conceder** a suspensão.
 
+> **Na ponta (30/09):** um e-mail real do Rio marca nova entrevista, exame médico novo e pasta de *public charge* para um caso EB2. É um posto e um processo, não um cronograma nacional. [O que a carta pede](/newsletter/2026-09-30-rio-reentrevista-eb2).
+
 ---
 
 ## 1. O que está no PDF — e o que não está
