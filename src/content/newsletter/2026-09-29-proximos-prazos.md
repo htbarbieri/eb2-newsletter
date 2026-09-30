@@ -12,7 +12,7 @@ tags: ["Doc 110", "Doc 111", "prazo", "atualização"]
 
 > **Para quem está aflito:** nada parou. O *stay* continua **negado** desde 25/09 (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*). Cable de 10/09 em vigor. Estas cartas **não** congelam entrevista, exame nem emissão. 5/10 e 23/10 são datas **propostas** à juíza, não uma ordem de parar o consulado.
 
-> **Em paralelo (28/09):** a declaração Armstrong entrou no recurso do Segundo Circuito. Lemos o PDF; o pedido de *stay* de emergência em si segue como relato, com fonte. [O que a declaração diz](/newsletter/2026-09-30-armstrong-segundo-circuito).
+> **Em paralelo (28/09):** a declaração Armstrong entrou no recurso do Segundo Circuito. A leitura, marcada como análise: [o que o PDF diz e o que ainda é relato](/newsletter/2026-09-30-armstrong-segundo-circuito).
 
 ---
 

@@ -1,9 +1,11 @@
 ---
-title: "Segundo Circuito: o que a declaração Armstrong realmente diz sobre os 43 mil"
+title: "Análise: o que a declaração Armstrong diz ao Segundo Circuito sobre os 43 mil"
 date: 2026-09-30
-excerpt: "Lemos o anexo 22.1 do recurso 26-2573 (28/09). O governo quer adjudicar os casos só depois do treinamento e dos formulários novos. Stay de emergência, Form C e 16/10 seguem como relato do Reddit, com link."
-tags: ["Segundo Circuito", "Armstrong", "stay", "atualização"]
+excerpt: "Análise do anexo 22.1 do recurso 26-2573 (28/09), não uma ordem nova. O que o PDF afirma, o que a Vargas já rejeitou, e o que segue só como relato do Reddit."
+tags: ["análise", "Segundo Circuito", "Armstrong"]
 ---
+
+**Isto é uma análise, não uma decisão nova.** A sentença segue em vigor e nenhum *stay* foi concedido no Segundo Circuito com base no que lemos.
 
 **Documento lido:** declaração de John Armstrong, *DktEntry 22.1* do recurso **26-2573** (*CLINIC v. Rubio*, Segundo Circuito), carimbo de **28 de setembro de 2026**. Assinada em **11/09**. [PDF no CourtListener](https://storage.courtlistener.com/recap/gov.uscourts.ca2.93d1e40b-94d9-4448-bc70-558b6c8fb06b/gov.uscourts.ca2.93d1e40b-94d9-4448-bc70-558b6c8fb06b.22.0.pdf).  
 **Mensagem em uma linha:** o Departamento de Estado diz ao tribunal de apelação que não quer os ~43 mil casos julgados de novo **antes** de terminar o pacote novo de *public charge*. Isso **não** é, por si, um *stay* concedido.

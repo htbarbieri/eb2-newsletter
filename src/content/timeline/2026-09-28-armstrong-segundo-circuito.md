@@ -1,10 +1,10 @@
 ---
-title: "Declaração Armstrong entra no Segundo Circuito: o que o PDF diz — e o que ainda é relato"
+title: "Análise: declaração Armstrong no Segundo Circuito (o que o PDF diz)"
 dateLabel: "28 Set 2026"
 sortDate: 2026-09-28T18:00:00
 excerpt: "Anexo 22.1 do recurso 26-2573, protocolado em 28/09. Armstrong pede que os 43 mil não sejam adjudicados antes do treinamento novo. Stay de emergência, Form C e 16/10 circulam no Reddit, sem esse PDF."
 side: us
-tags: ["Segundo Circuito", "Armstrong", "stay", "26-2573"]
+tags: ["análise", "Segundo Circuito", "Armstrong", "26-2573"]
 ---
 
 Em **28 de setembro de 2026**, o recurso *CLINIC v. Rubio* no Segundo Circuito (**26-2573**) recebeu a **declaração de John Armstrong** (*DktEntry 22.1*, 7 páginas). O carimbo do PDF é desse dia. O texto foi **assinado em 11/09** e diz que apoia uma moção de *stay* da sentença de 21/08.
