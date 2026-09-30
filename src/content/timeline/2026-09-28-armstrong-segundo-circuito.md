@@ -2,7 +2,7 @@
 title: "Análise: declaração Armstrong no Segundo Circuito (o que o PDF diz)"
 dateLabel: "28 Set 2026"
 sortDate: 2026-09-28T18:00:00
-excerpt: "Anexo 22.1 do recurso 26-2573, protocolado em 28/09. Armstrong pede que os 43 mil não sejam adjudicados antes do treinamento novo. Stay de emergência, Form C e 16/10 circulam no Reddit, sem esse PDF."
+excerpt: "Análise do anexo 22.1 do recurso 26-2573, protocolado em 28/09. Não é stay concedido. Stay de emergência, Form C e 16/10 circulam no Reddit, sem esse PDF."
 side: us
 tags: ["análise", "Segundo Circuito", "Armstrong", "26-2573"]
 ---
@@ -29,4 +29,4 @@ Não é a moção em si. Não pede, nestas 7 páginas, *administrative stay*, n�
 
 Esses pontos circulam num [relato no Reddit](https://www.reddit.com/r/i130_75CountryPause/comments/1wtrcyl/clinic_update_doj_asks_the_second_circuit_for/). Tratamos como **relato**, não como peça que lemos. A Vargas já **negou** um *stay* com essa mesma teoria de dano em 25/09 (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*).
 
-Cobertura: [O que a declaração Armstrong diz no recurso](/newsletter/2026-09-30-armstrong-segundo-circuito).
+Cobertura, como análise: [O que a declaração Armstrong diz no recurso](/newsletter/2026-09-30-armstrong-segundo-circuito).
