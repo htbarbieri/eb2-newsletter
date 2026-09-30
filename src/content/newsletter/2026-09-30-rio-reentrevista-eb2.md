@@ -5,7 +5,7 @@ excerpt: "Um caso EB2 no consulado do Rio recebeu data nova, exame médico obrig
 tags: ["Rio de Janeiro", "reentrevista", "EB2"]
 ---
 
-**Fonte:** e-mail do Consulado dos EUA no Rio de Janeiro (`immigrationrio@state.gov`) para **um** processo. A nova entrevista desse caso está marcada para **[data no e-mail]**.  
+**Fonte:** e-mail do Consulado dos EUA no Rio de Janeiro (`immigrationrio@state.gov`) para **um** processo. A nova entrevista desse caso está marcada para **outubro de 2026**.  
 **Mensagem em uma linha:** o posto está chamando de novo, com exame médico novo e pasta refeita. Isso **não** é visto emitido, e a data **não** vale para todo mundo.
 
 ---
