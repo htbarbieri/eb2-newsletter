@@ -5,12 +5,12 @@ excerpt: "Um caso EB2 no consulado do Rio recebeu data nova, exame médico obrig
 tags: ["Rio de Janeiro", "reentrevista", "EB2"]
 ---
 
-**Fonte:** e-mail do Consulado dos EUA no Rio de Janeiro (`immigrationrio@state.gov`) para **um** processo. A nova entrevista desse caso está marcada para **29 de outubro de 2026**.  
-**Mensagem em uma linha:** o posto está chamando de novo, com exame médico novo e pasta refeita. Isso **não** é visto emitido, e **não** é a data de todo mundo.
+**Fonte:** e-mail do Consulado dos EUA no Rio de Janeiro (`immigrationrio@state.gov`) para **um** processo. A nova entrevista desse caso está marcada para **[data no e-mail]**.  
+**Mensagem em uma linha:** o posto está chamando de novo, com exame médico novo e pasta refeita. Isso **não** é visto emitido, e a data **não** vale para todo mundo.
 
 ---
 
-> **Para quem está aflito:** um e-mail do Rio não muda a sentença nem o *stay*. A pausa continua anulada. Quem não recebeu mensagem do próprio posto **não** deve comparecer, **não** deve refazer exame por conta própria e **não** deve tratar 29/10 como data universal. O CEAC pode continuar como “Recusado” / *Refused* até o posto terminar de olhar os documentos. O próprio e-mail pede para **não** comprar passagem, vender imóvel ou pedir demissão antes da emissão.
+> **Para quem está aflito:** um e-mail do Rio não muda a sentença nem o *stay*. A pausa continua anulada. Quem não recebeu mensagem do próprio posto **não** deve comparecer, **não** deve refazer exame por conta própria e **não** deve tratar a data deste caso como se fosse a de todo mundo. O CEAC pode continuar como “Recusado” / *Refused* até o posto terminar de olhar os documentos. O próprio e-mail pede para **não** comprar passagem, vender imóvel ou pedir demissão antes da emissão.
 
 ---
 
@@ -36,7 +36,7 @@ Não confirma formulário médico futuro (DS-2054 e os outros citados no recurso
 
 ## 3. Checklist se o seu e-mail for parecido
 
-1. Leia a **sua** data. A de 29/10 é deste caso.  
+1. Leia a **sua** data. A deste e-mail é só deste caso.  
 2. Exame só com médico da lista do posto, a tempo de o resultado entrar no sistema antes da entrevista.  
 3. EB2 / EB2-NIW: reenvie a pasta do USCIS ao e-mail do Rio no prazo que a carta marcar.  
 4. Separe originais, passaporte com 8 meses e a pasta financeira, inclusive oferta de emprego atualizada se for o seu caso.  
