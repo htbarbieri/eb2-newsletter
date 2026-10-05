@@ -24,4 +24,4 @@ O CEAC pode seguir como “Recusado” até a leitura acabar. O e-mail desaconse
 
 Não é data para todos os brasileiros, nem para todos os que entrevistaram em janeiro. Não é *stay* e não é emissão. A Vargas já disse que reentrevista **não** foi ordenada pela sentença — o posto é que está pedindo, neste caso.
 
-Detalhe: [Rio: e-mail real de reentrevista EB2](/newsletter/2026-09-30-rio-reentrevista-eb2).
+Detalhe: [Rio: e-mail real de reentrevista EB2](/newsletter/2026-09-30-rio-reentrevista-eb2). Em **5/10** as partes responderam ao prazo certo: [governo (*Doc 114*)](/timeline/2026-10-05-governo-resposta-doc114) · [autores (*Doc 115*)](/timeline/2026-10-05-autores-pedem-prazo-doc115).

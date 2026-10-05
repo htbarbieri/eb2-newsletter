@@ -12,7 +12,7 @@ tags: ["Doc 110", "Doc 111", "prazo", "atualização"]
 
 > **Para quem está aflito:** nada parou. O *stay* continua **negado** desde 25/09 (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*). Cable de 10/09 em vigor. Estas cartas **não** congelam entrevista, exame nem emissão. 5/10 e 23/10 são datas **propostas** à juíza, não uma ordem de parar o consulado.
 
-> **Em paralelo (28/09):** a declaração Armstrong entrou no recurso do Segundo Circuito. A leitura, marcada como análise: [o que o PDF diz e o que ainda é relato](/newsletter/2026-09-30-armstrong-segundo-circuito).
+> **Atualização (5/10):** as respostas ao *Order to Show Cause* entraram. Governo pede para **não** haver data certa (*[Doc 114](/timeline/2026-10-05-governo-resposta-doc114)*); autores pedem **30** e **60** dias (*[Doc 115](/timeline/2026-10-05-autores-pedem-prazo-doc115)*). A juíza **ainda não decidiu**. [Cobertura](/newsletter/2026-10-05-respostas-show-cause).
 
 ---
 

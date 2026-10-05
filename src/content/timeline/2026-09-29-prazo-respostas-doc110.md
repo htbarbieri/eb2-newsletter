@@ -21,4 +21,4 @@ Cada lado protocola, no mesmo horário, por que a juíza **deveria ou não** emi
 * **Não é** a *injunction* com prazo. O mérito dessa briga só começa quando as respostas entrarem.
 * **Não mexe no *stay*.** A suspensão continua **negada** desde 25/09 (*[Doc 109](/timeline/2026-09-25-vargas-nega-stay-doc109)*). Sentença e cable seguem em vigor.
 
-No mesmo dia saiu a [segunda carta conjunta do resto do caso (*Doc 111*)](/timeline/2026-09-29-carta-conjunta-doc111). Cobertura: [Próximos prazos do caso](/newsletter/2026-09-29-proximos-prazos).
+No mesmo dia saiu a [segunda carta conjunta do resto do caso (*Doc 111*)](/timeline/2026-09-29-carta-conjunta-doc111). Em **5/10** as respostas ao *show cause* entraram: [governo](/timeline/2026-10-05-governo-resposta-doc114) · [autores](/timeline/2026-10-05-autores-pedem-prazo-doc115). Cobertura: [5/10: governo diz não, autores pedem 30 e 60 dias](/newsletter/2026-10-05-respostas-show-cause).
