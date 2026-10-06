@@ -24,4 +24,4 @@ A juíza deve **encerrar** o *show cause* **sem** *injunction* com data certa. S
 
 A sentença anula e devolve; **não** manda terminar até um dia. Prazo único seria obrigação **nova**. Há recurso no Segundo Circuito (*Dkt. 21.1*). Um prazo para dezenas de milhares de não-partes iria além do necessário para aliviar os autores (*Trump v. CASA*).
 
-No mesmo dia: [resposta dos autores (*Doc 115*)](/timeline/2026-10-05-autores-pedem-prazo-doc115). Cobertura: [5/10: governo diz não, autores pedem 30 e 60 dias](/newsletter/2026-10-05-respostas-show-cause).
+Sustentação oral: **14/10, 11h** (NY) — [audiência](/timeline/2026-10-06-audiencia-14-outubro). No mesmo dia 5/10: [resposta dos autores (*Doc 115*)](/timeline/2026-10-05-autores-pedem-prazo-doc115). Cobertura: [5/10: governo diz não, autores pedem 30 e 60 dias](/newsletter/2026-10-05-respostas-show-cause).

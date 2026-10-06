@@ -10,6 +10,8 @@ tags: ["Doc 114", "Doc 115", "Doc 108", "prazo", "atualização"]
 
 ---
 
+> **Atualização (6/10):** Vargas marcou sustentação oral para **14/10, 11h** (NY). [A audiência do prazo](/newsletter/2026-10-06-audiencia-14-outubro).
+
 > **Para quem está aflito:** a sentença e o cable de 10/09 **continuam em vigor**. O *stay* na Vargas segue **negado**. Estas peças são **briefing**, não ordem nova. Nada neste docket de 5/10 manda o consulado parar, e nada ainda manda terminar o seu caso até uma sexta-feira marcada. Quem não recebeu e-mail do próprio posto **não** comparece e **não** refaz exame por conta própria.
 
 ---

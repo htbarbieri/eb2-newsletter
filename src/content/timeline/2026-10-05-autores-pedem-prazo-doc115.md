@@ -22,4 +22,4 @@ A vacatur devolve o *status quo*: julgar no INA antigo, não inventar esteira no
 
 Citam *Storie* (30 dias para autores daquela ação) e *Medani* (o juiz lá já falou em frustração da ordem). *Consular nonreviewability* e *CASA*, para eles, não barram fazer a vacatur **valer**.
 
-A Vargas **ainda não decidiu**. No mesmo dia: [resposta do governo (*Doc 114*)](/timeline/2026-10-05-governo-resposta-doc114). Cobertura: [5/10: governo diz não, autores pedem 30 e 60 dias](/newsletter/2026-10-05-respostas-show-cause).
+A Vargas **ainda não decidiu**. Sustentação oral marcada para **14/10, 11h** (NY): [audiência](/timeline/2026-10-06-audiencia-14-outubro). No mesmo dia 5/10: [resposta do governo (*Doc 114*)](/timeline/2026-10-05-governo-resposta-doc114). Cobertura: [5/10: governo diz não, autores pedem 30 e 60 dias](/newsletter/2026-10-05-respostas-show-cause).
